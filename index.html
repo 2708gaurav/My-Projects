@@ -3,23 +3,47 @@
 <head>
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
+    <div class="container">
     <section id="app">
         <h1>Apps</h1>
         <div class="line"></div>
         <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3TJjqDd_0127UUu8csQbxuXmN2T_OtDOUo42OJTEkw4/embed"></iframe>
         <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/xWK39W8s8unUrInGBfjgYhnnI2UyqAOzL2zKVppSO3k/embed"></iframe>
     </section>
-
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/playlab/OPB9SNTt_0YxnUhNBSMbW-V1I2XRhgXxdAh0oLn3yWI" target="_blank"><img src="Dragon%20Attack.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/VRbtVsjk1rT8dagYMV9ZjRNfpv6QYJp5DUIjUAuXQ2k" target="_blank"><img src="Balloon%20Game.png"></a>
-    </section>
+        
+<h2>Click on the Games To Explore</h2>
+   <h5>This games are build in game lab, click on the game to play
+</h5>
+        <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+            <center>
+                <a href="https://studio.code.org/projects/playlab/OPB9SNTt_0YxnUhNBSMbW-V1I2XRhgXxdAh0oLn3yWI" target="_blank"><img src="Dragon%20Attack.png"></a>
+                <div class="carousel-content">
+                <p>Dragon Attack</p>
+                </div>
+                </center>
+            </div>
+            <div class="item">
+            <center>
+               <a href="https://studio.code.org/projects/spritelab/VRbtVsjk1rT8dagYMV9ZjRNfpv6QYJp5DUIjUAuXQ2k" target="_blank"><img src="Balloon%20Game.png"></a>
+                <div class="carousel-content">
+                <p>Balloon Game</p>
+                </div>
+                </center>
+            </div>
+            </div>
+  <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>    
+       <a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    
 
     <section id="chatbot">
         <h1>Chatbot</h1>
@@ -27,4 +51,5 @@
         <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/f3662b16-2596-4fb2-aae2-8c3737ecddc6">
         </iframe>
     </section>
+    </div>
 </body></html>
